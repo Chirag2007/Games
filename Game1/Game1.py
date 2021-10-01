@@ -5,6 +5,7 @@ Author:
     Charles
 微信公众号: 
     Charles的皮卡丘
+#importing things
 '''
 import sys
 import cfg
@@ -31,7 +32,7 @@ def initGame():
             game_sounds[key] = pygame.mixer.Sound(value)
     return screen, game_images, game_sounds
 
-
+#main value
 '''主函数'''
 def main():
     # 初始化
